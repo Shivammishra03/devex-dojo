@@ -13,5 +13,8 @@
     "@nuxtjs/tailwindcss": "^6.7.0",
     "@types/node": "^18",
     "nuxt": "^3.9.3"
+  },
+  "dependencies": {
+    "vite": "^5.0.12"
   }
 }
