@@ -1,3 +1,9 @@
+<script setup>
+    const {data:products} = await useFetch('https://fakestoreapi.com/products/')
+    useHead({
+        title: 'Devx Dojo | Product'
+    })
+</script>
 <template>
     <div>
         <div class="grid grid-cols-4 gap-5">
@@ -7,14 +13,3 @@
         </div>
     </div>
 </template>
-
-<script setup>
-    const {data:products} = await useFetch('https://fakestoreapi.com/products/')
-    useHead({
-        title: 'Devx Dojo | Product'
-    })
-</script>
-
-<style  scoped>
-
-</style>

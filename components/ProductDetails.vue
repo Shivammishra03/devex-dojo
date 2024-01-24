@@ -1,3 +1,7 @@
+<script setup>
+    const {product} = defineProps(['product'])
+</script>
+
 <template>
     <div class="card">
         <div class="grid grid-cols-2 gap-10">
@@ -17,10 +21,6 @@
         </div>
     </div>
 </template>
-
-<script setup>
-    const {product} = defineProps(['product'])
-</script>
 
 <style  scoped>
  img {
